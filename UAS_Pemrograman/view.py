@@ -23,9 +23,9 @@ class View:
             print("belum ada data")
         else:
             print("\nDaftar Nilai Siswa")
-            print("=" * 40)  
-            print(f"{'Nama':<20}{'Nilai':>10}")
-            print("-" * 40)
+            print("-" * 30)
+            print(f"{'Nama':<15}{'Nilai':>10}")
+            print("-" * 30)
             for data in siswa:
-                print(f"{data['nama']:<20}{data['nilai']:>10}")
-                print("=" * 40)
+                print(f"{data['nama']:<15}{data['nilai']:>10}")
+                print("-" * 30)

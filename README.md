@@ -6,6 +6,10 @@ NIM : 312410486
 
 KELAS : TI.24.A5
 
+# Hasil Eksekusi Program
+![prak.pict](https://github.com/Nakii-ru/prak.pict/blob/main/Screenshot%202025-01-08%20022226.png?raw=true)
+![prak.pict](https://github.com/Nakii-ru/prak.pict/blob/main/Screenshot%202025-01-08%20022249.png?raw=true)
+
 # Penjelasan
 # File data.py
 `Class: Data`
@@ -86,10 +90,12 @@ Penjelasan: Menu ini akan ditampilkan setiap kali program dijalankan, memungkink
             print("belum ada data")
         else:
             print("\nDaftar Nilai Siswa")
+            print("=" *25)
             print("Nama\t\tNilai")
-            print("=" *27)
+            print("=" *25)
             for data in siswa:
                 print(f"{data['nama']}\t\t{data['nilai']}")
+            print("=" *25)
 ```
 `tampilkan_siswa` Method
 
@@ -168,6 +174,3 @@ if __name__ == "__main__":
 Fungsi: Untuk memastikan bahwa file ini dijalankan langsung sebagai program utama, bukan diimpor sebagai modul.
 
 Proses: Jika file ini dijalankan langsung, objek dari class Process akan dibuat, dan method run akan dipanggil untuk menjalankan program.
-# Hasil Program
-![prak.pict](https://github.com/Nakii-ru/prak.pict/blob/main/Screenshot%202025-01-08%20004034.png?raw=true)
-![prak.pict](https://github.com/Nakii-ru/prak.pict/blob/main/Screenshot%202025-01-08%20004053.png?raw=true)

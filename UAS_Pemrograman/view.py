@@ -22,10 +22,10 @@ class View:
         if not siswa:
             print("belum ada data")
         else:
-            print("\nDaftar Nilai Siswa")
-            print("-" * 30)
-            print(f"{'Nama':<15}{'Nilai':>10}")
-            print("-" * 30)
+           print("\nDaftar Nilai Siswa")
+            print("=" *25)
+            print("Nama\t\tNilai")
+            print("=" *25)
             for data in siswa:
-                print(f"{data['nama']:<15}{data['nilai']:>10}")
-                print("-" * 30)
+                print(f"{data['nama']}\t\t{data['nilai']}")
+            print("=" *25)
